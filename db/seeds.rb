@@ -183,9 +183,6 @@ end
     image: open("./app/assets/images/creame.jpg")
   )
 
-
-
-
   9.times do |n|
     Address.create!(
       name: "test#{n + 1}",
