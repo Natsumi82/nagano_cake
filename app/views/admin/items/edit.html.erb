@@ -8,7 +8,7 @@
         <tr>
           <div class="form-group">
             <%= f.label :商品画像, class:"form_label"%>
-            <%= f.attachment_field :image,class:"mb-3 ml-3"%>
+            <%= attachment_image_tag @item, :image, :size => '300x250'%>
           </div>
         </tr>
         <tr>
