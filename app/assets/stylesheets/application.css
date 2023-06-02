@@ -14,12 +14,6 @@
  *= require_self
  */
 
-@import "bootstrap";
-@import 'font-awesome-sprockets';
-@import 'font-awesome';
-
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
-
 body,
 #wrapper {
   display: flex;
@@ -58,4 +52,10 @@ footer{
   font-family: "Neuzeit Office Soft Rounded", sans-serif;
   font-weight: 700;
   font-style: normal;
+}
+
+.social {
+  position: absolute;
+  top: 22px;
+  right: 22px;
 }
